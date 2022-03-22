@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+.header-navigation{
+    float: right;
+margin: 10px;
+
+}
+
+.header-navigation ion-icon:hover{
+ background-color: gray;
+ border-radius: 50%;
+
+}
+.header-navigation a{
+    
+    padding: 3px;
+}
+.header-navigation ion-icon{
+   padding-bottom: 0px;
+    font-size: 23px;
+    margin-left: 3px;
+}
+
+.header-navigation :last-child {
+   padding-bottom: 0px;
+   margin-bottom: -2px;
+   margin-right: -3px;
+    font-size: 34px;
+    margin-left: 3px;
+    color: rgb(1, 63, 1);
+}
+
+#google-image{
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform:translate(-50%,1%);
+    width: 350px;
+    }
+
+#fsearch{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+  height: 40px;
+  transform:translate(-50%,0);
+    width: 46%;
+    border-radius: 25px;
+    border: .5px solid rgb(158, 158, 158);
+    padding-left: 15px;
+
+}
+#mic{
+    height: 26px;
+    position: absolute;
+    left: 70.5%;
+    top: 31%;
+
+}
+#magnifi{
+    height: 26px;
+    position: absolute;
+    left: 28%;
+    top: 31.2%;
+}
+#buttons{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform:translate(-50%,0);
+   
+    padding-left: 15px;
+}
+#buttons input{
+    height: 40px;
+}
+#offer{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform:translate(-50%,0);
+}
+footer{
+    position: fixed;
+    background-color: rgb(175, 175, 175);
+width: 100%;
+ height: 80px;
+  bottom: 0;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+#footer-right{
+    position: absolute;
+    top: 55px;
+  left: 80%;
+}
+#footer-left{
+    position: absolute;
+}
+@media all and (min-width: 768px) and (max-width: 991px){
+    .header-navigation{
+    float: right;
+margin: 8px;
+
+}
+
+.header-navigation ion-icon:hover{
+ background-color: gray;
+ border-radius: 50%;
+
+}
+.header-navigation a{
+    
+    padding: 2px;
+}
+.header-navigation ion-icon{
+   padding-bottom: 0px;
+    font-size: 19px;
+    margin-left: 2px;
+}
+
+.header-navigation :last-child {
+   padding-bottom: 0px;
+   margin-bottom: -2px;
+   margin-right: -3px;
+    font-size: 30px;
+    margin-left: 2px;
+    color: rgb(1, 63, 1);
+}
+
+#google-image{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform:translate(-50%,1%);
+    width: 275px;
+    }
+
+#fsearch{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+  height: 35px;
+  transform:translate(-50%,0);
+    width: 46%;
+    border-radius: 25px;
+    border: .45px solid rgb(158, 158, 158);
+    padding-left: 15px;
+
+}
+#mic{
+    height: 24px;
+    position: absolute;
+    left: 70.5%;
+    top: 31%;
+
+}
+#magnifi{
+    height: 24px;
+    position: absolute;
+    left: 28%;
+    top: 31.2%;
+}
+#buttons{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform:translate(-50%,0);
+   
+    padding-left: 15px;
+}
+#buttons input{
+    height: 30px;
+}
+#offer{
+    font-size: small;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform:translate(-50%,0);
+}
+footer{
+    position: fixed;
+    background-color: rgb(175, 175, 175);
+width: 100%;
+ height: 60px;
+  bottom: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: small;
+}
+#footer-right{
+    position: absolute;
+    top: 45px;
+   left: 80%;
+   font-size: small;
+}
+#footer-left{
+    position: absolute;
+    font-size: small;
+}
+            
+}
+@media all and (max-width: 767px){
+    .header-navigation{
+    float: right;
+margin: 4px;
+
+}
+
+.header-navigation ion-icon:hover{
+ background-color: gray;
+ border-radius: 50%;
+
+}
+.header-navigation a{
+    
+    padding: 1px;
+}
+.header-navigation ion-icon{
+   padding-bottom: 0px;
+    font-size: 10px;
+    margin-left: 1px;
+}
+
+.header-navigation :last-child {
+   padding-bottom: 0px;
+   margin-bottom: -2px;
+   margin-right: -2px;
+    font-size: 20px;
+    margin-left: 1px;
+    color: rgb(1, 63, 1);
+}
+
+#google-image{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform:translate(-50%,1%);
+    width: 190px;
+    }
+
+#fsearch{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+  height: 20px;
+  transform:translate(-50%,0);
+    width: 46%;
+    border-radius: 25px;
+    border: .25px solid rgb(158, 158, 158);
+    padding-left: 8px;
+
+}
+#mic{
+    height: 16px;
+    position: absolute;
+    left: 70.5%;
+    top: 31%;
+
+}
+#magnifi{
+    height: 16px;
+    position: absolute;
+    left: 28%;
+    top: 31.2%;
+}
+#buttons{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform:translate(-50%,0);
+   
+    padding-left: 10px;
+}
+#buttons input{
+    height: 15px;
+    font-size: xx-small;
+}
+#offer{
+    font-size: xx-small;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform:translate(-50%,0);
+}
+footer{
+    position: fixed;
+    background-color: rgb(175, 175, 175);
+width: 100%;
+ height: 50px;
+  bottom: 0;
+  padding-top: 8px;
+  padding-left: 7px;
+  font-size: x-small;
+}
+#footer-right{
+    position: absolute;
+    top: 85%;
+   left: 2%;
+   font-size: x-small;
+}
+#footer-left{
+    position: absolute;
+    font-size: x-small;
+}
+            
+}
+           
+        
+  
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-navigation">
+            <a href="">Google</a>
+            <a href="">Image</a>
+            <ion-icon name="apps"></ion-icon>
+            <ion-icon name="ellipse"></ion-icon>
+
+        </div>
+        
+    </header>
+    <main>
+        <div > <img id="google-image" src="img/Google-Logo.wine.png" alt="" ></div>
+        <div><input id="fsearch"  type="text" name="search" >
+        <img id="mic" src="img/mic.png" alt="">
+        <img id="magnifi"src="img/mgnify.jpg" alt="">
+    </div>
+    <div id="buttons"><input type="button" value="Google Search">
+        <input type="button" value="I,m Feeling Lucky"></div>
+        <div id="offer">Google offered in: <a href=" ">සිංහල</a> <a href="">தமிழ்</a>  </div>
+       
+    </main>
+   <footer>
+       <div id="footer-tag">SriLanka</div>
+    <hr>
+       <div id="footer-tag">
+           <div id="footer-left">About  &nbsp  Advertising  &nbsp   Bussiness  &nbsp How To Search Works </div>
+           <div id="footer-right">Privacy  &nbsp  Terms  &nbsp   Settings </div>
+           
+       </div>
+   </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
